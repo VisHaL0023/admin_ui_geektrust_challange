@@ -1,0 +1,16 @@
+.search {
+  padding: 14px 20px;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid burlywood;
+  width: 96%;
+  margin-bottom: 5px;
+  background-color: #f8f8f5;
+}
+.searchContainer {
+  padding: 1px;
+}
+
+.searchContainer :hover {
+  border-color: black;
+}

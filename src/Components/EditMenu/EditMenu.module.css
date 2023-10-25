@@ -1,0 +1,54 @@
+.editMenu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.menuContainer {
+  background-color: white;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.2);
+  width: 400px;
+  height: 350px;
+}
+
+.menuContainer input {
+  width: 85%;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1.5px solid rgb(189, 185, 178);
+  border-radius: 4px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-top: 11px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.menuButton {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.menuButton button {
+  padding: 10px 17px;
+  background-color: rgb(53, 147, 188);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 15px;
+}

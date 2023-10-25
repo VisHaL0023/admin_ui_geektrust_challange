@@ -1,0 +1,82 @@
+.table-footer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.table-footer button {
+  align-self: flex-start;
+  background-color: rgb(211, 6, 6);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.tableFooter {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+button :hover {
+  background-color: (180, 79, 79);
+}
+
+.button {
+  color: white;
+  align-self: flex-start;
+  background-color: rgb(24, 144, 255);
+  padding: 8px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+}
+
+.paginationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.deleteButton {
+  color: white;
+  align-self: flex-start;
+  background-color: rgb(206, 109, 114);
+  padding: 8px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+}
+
+.disabledButton {
+  color: rgb(71, 71, 71);
+  align-self: flex-start;
+  background-color: rgb(177, 178, 179);
+  padding: 8px 10px;
+  border-radius: 7px;
+  border: none;
+  cursor: not-allowed;
+}
+
+.disableDeleteButton {
+  color: rgb(71, 71, 71);
+  align-self: flex-start;
+  background-color: rgb(177, 178, 179);
+  padding: 8px 10px;
+  border-radius: 7px;
+  border: none;
+  cursor: not-allowed;
+}
+
+.activePage {
+  color: white;
+  align-self: flex-start;
+  background-color: rgb(206, 109, 114);
+  padding: 8px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+}
